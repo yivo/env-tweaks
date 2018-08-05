@@ -1,0 +1,14 @@
+language: ruby
+
+cache: bundler
+
+rvm:
+  - 2.5
+
+gemfile:
+  - gemfiles/activesupport_3.x.gemfile
+  - gemfiles/activesupport_4.x.gemfile
+  - gemfiles/activesupport_5.x.gemfile
+
+script:
+  - bundle exec rake test
