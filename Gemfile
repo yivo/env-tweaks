@@ -5,6 +5,6 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rake",      "~> 12.0"
+gem "rake",      "~> 13.0"
 gem "test-unit", "~> 3.2"
 gem "appraisal", "~> 2.2", require: false
